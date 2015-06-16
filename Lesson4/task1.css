@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+
+.page_align{
+	width: 900px;
+	background-color: #9966ff;
+	margin: 35px auto;	
+}
+.header_menu{
+	height: 38px;
+	box-shadow: 1px 1px 3px #cccccc;
+	padding-left: 75px;
+}
+.header_menu ul li {
+	list-style:none;
+	line-height: 38px;	
+	display: inline-block;
+}
+
+.header_menu ul li a{
+	color: white;
+	padding: 0px 15px;
+	text-transform: uppercase;
+	font-family: impact;
+}
+.header_menu ul li a:hover{
+	background-color: #ffffff;
+	display: block;
+	color: #999999;
+}
+

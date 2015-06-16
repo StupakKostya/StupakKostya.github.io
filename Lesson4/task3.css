@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+a{
+	text-decoration: none;
+}
+.page_align{
+	width: 900px;
+	margin: 35px auto;	
+}
+.item-list{
+	height: 15px;
+}
+.item-list ul li {
+	list-style:none;
+	float: left;
+}
+.pager{
+	line-height: 15px;
+
+	}
+.item-list ul li a{
+	padding: 0px 5px;
+	color: #9933cc;
+	font-size: 10px;
+	
+
+}
+.item-list ul li a:hover{
+	background-color:#9933cc; 
+	display: block;
+	color: #fff;
+	border-radius: 4px;
+}
+.pager-item{
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	margin-right: 3px;
+
+}
+.but{
+	margin-right: 3px;
+	line-height: 18px;
+	border-radius: 18px;
+}
