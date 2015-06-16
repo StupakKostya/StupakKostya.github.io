@@ -1,0 +1,16 @@
+tr:nth-child(even){
+	background-color: #ddebf7;
+}
+
+td:nth-child(3){
+	background-color: #f2f2de;
+}
+td:nth-child(5){
+	background-color: #f2f2de;
+}
+td:nth-child(7){
+	background-color: #f2f2de;
+}
+td:nth-last-child(2){
+	background-color: #f2f2de;
+}

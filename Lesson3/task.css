@@ -1,0 +1,54 @@
+p:first-letter{
+	color: red;
+}
+em {
+	background-color: green;
+	color: white;
+}
+h1{
+	color: orange;
+}
+#allotment h2{
+	color:orange;
+}
+
+#allotment ul{
+font-weight: bold;
+}
+
+#allotment .fruits-list{
+	font-weight: normal;
+	color: gray;
+}
+#allotment .vegetables-list{
+	font-weight: normal;
+	color: red;
+}
+#warehouse h2{
+	color: blue;
+}
+#warehouse ul{
+	font-weight: bold;
+}
+#warehouse .fruits-list{
+	font-weight: normal;
+	color: green;
+}
+#warehouse .vegetables-list{
+	font-weight: normal;
+	color: red;
+}
+thead{
+	font-weight: bold;
+	text-align: center;
+}
+tbody td:first-child{
+	color: orange;
+}
+tbody td:nth-child(even){
+	background-color: green;
+}
+tbody td:nth-child(3){
+	background-color: green;
+}
+/*Task 2*/
