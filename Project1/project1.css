@@ -1,0 +1,319 @@
+*{
+ margin: 0;
+ padding: 0;
+ outline: none;
+}
+a{
+ text-decoration: none;
+}
+span{
+	color: #3070a8;
+	font-weight: bold;
+}
+sub{
+	font-size: 19px;
+}
+sup{
+	font-size: 13px;
+
+}
+.header_nav{
+	margin-left:189px;
+	height: 68px;
+	width: 1023px;
+}
+.logo{
+	margin-top: 48px;
+}
+.logo a{
+	color: #ee8129;
+	font-size: 36px;
+	display: block;
+	float: left;
+}	
+.menu ul li{
+	float: right;
+	display: block;
+	list-style: none;
+}
+.menu ul li a{
+	color: #989898;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	display: block;	
+	line-height: 66px;
+	margin-right:40px;
+}
+.menu ul li a:hover{
+	border-bottom: 4px solid #3070a8;
+	color: #3070a8;
+	font-weight: bold;
+}
+/*Banner*/
+.banner{
+	height: 585px;
+	background-image: url(ban_bg.jpg);
+}
+.ban_cont{
+	width: 1024px;
+	margin-left:189px;
+	padding-top: 156px;
+}
+.ban_cont p{
+	text-align: center;
+	font-family: 'britannic', bold;
+	color: white;
+	font-size: 48px;	
+}
+.ban_cont p:first-child{
+	font-size: 36px;
+}
+.lor{
+	font-size: 20px;
+	color: white;
+}
+button{
+	width: 245px;
+	height: 57px;
+	background: transparent;
+	color: white;
+	border: 1px solid white ;
+	margin:47px 0 0 381px;
+}
+/*Services*/
+
+.services{
+	height: 563px;
+	
+}
+.serv_cont{
+	width: 1023px;
+	margin-left:189px;
+}
+.p.serv{
+	margin-top: 30px;
+}
+.protect{
+	width:140px;
+	height:140px;
+	background: #3070a8;
+	float: left;
+	border: 1px solid white;
+	border-radius: 100px;
+	margin-left: 100px;
+}
+.alert{
+	width:140px;
+	height:140px;
+	background: #3070a8;
+	float: left;
+	border: 1px solid white;
+	border-radius: 100px;
+	margin-left: 216px;
+
+}
+.detect{
+	width:140px;
+	height:140px;
+	background: #3070a8;
+	float: left;
+	border: 1px solid white;
+	border-radius: 100px;
+	margin-left: 216px;
+}
+.clr{
+	clear: both;
+}
+.p_protect{
+	width:305px;
+	float: left;
+	text-align: center;
+}
+.p_alert{
+	width:305px;
+	float: left;
+	text-align: center;
+	margin-left: 66px;
+	
+}
+.p_detect{
+	width:305px;
+	float: left;
+	text-align: center;
+	margin-left: 36px;
+}
+/*SECTION*/
+
+.section{
+	height: 563px;
+	background-image: url(sec_bg.jpg);
+}
+.sec_content{
+	width: 673px;
+	margin-left:189px;
+
+}
+.sec_content p{
+	color: #ee8129;
+	font-size: 26px;
+	line-height: 35px;
+
+
+}
+.sec_content ul{
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 19px;
+	margin-top: 10px;
+}
+.sec_content ul li{
+list-style-position: inside;
+color: #848484;
+line-height: 32px;
+font-family: 'Open Sans';
+
+}
+.sec_content ul li:hover{
+	color: #2d679a;
+}
+/*PRICING*/
+
+.pricing{
+	height: 703px;
+}
+.pri_content{
+	width: 1023px;
+	margin-left:189px;
+	margin-top: 75px;
+	text-align: center;
+}
+.all_price{
+	margin-left: 74px;
+}
+.standard{
+	height: 420px;
+	width: 290px;
+	border: 1px solid #e8eaec;
+	margin-top: 78px;
+	float: left;
+}
+.s_head{
+	height: 63px;
+	line-height: 63px;
+	background-color: #2bc2d5;
+	font-size: 24px;
+	color: white;
+}
+.s_text{
+	font-size: 24px;
+	margin-top: 23px;
+	margin-bottom: 27px;
+}
+.b_value{
+	height: 420px;
+	width: 290px;
+	border: 1px solid #e8eaec;
+	margin-top: 78px;
+	float: left;
+}
+.b_v_head{
+	height: 63px;
+	line-height: 63px;
+	background-color: #ee8129;
+	font-size: 24px;
+	color: white;
+}
+.b_text{
+	font-size: 24px;
+	margin-top: 23px;
+	margin-bottom: 27px;
+	}
+.ultimate{
+	height: 420px;
+	width: 290px;
+	border: 1px solid #e8eaec;
+	margin-top: 78px;
+	float: left;
+}
+.ult_head{
+	height: 63px;
+	line-height: 63px;
+	background-color: #00b89a;
+	font-size: 24px;
+	color: white;
+}
+.u_text{
+	font-size: 24px;
+	margin-top: 23px;
+	margin-bottom: 27px;
+}
+
+.pr_n{
+	font-size: 50px;
+	color: black;
+}
+
+/*TEST*/
+
+.test{
+	height: 315px;
+	background-image: url(test.jpg);
+}
+.test_content{
+	width: 1023px;
+	margin-left:189px;
+}
+
+.content_n{
+	height: 138px;
+	color: #3170a8;
+}
+.content_n span{
+	color: #ee8129;
+
+}
+.photo{
+	float: left;
+
+}
+.cust{
+	float: left;
+	width: 362px;
+	height: 96px;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	position: relative;
+	margin-left: 27px;
+	margin-right: 40px;
+}
+.cust::before{
+	content: '';
+	position: absolute;
+	left: -40px; 
+	top: 23px;
+    border: 20px solid transparent; 
+    border-right: 20px solid white;
+}
+.photo1{
+	float: left;
+}
+.cust1{
+	float: left;
+	width: 362px;
+	height: 96px;
+	background-color: white;
+	border: 1px solid #e0e0e0;
+	position: relative;
+	margin-left: 27px;
+}
+.cust1::before{
+	content: '';
+	position: absolute;
+	left: -40px; 
+	top: 23px;
+    border: 20px solid transparent; 
+    border-right: 20px solid white;
+}
+footer {
+	height: 449px;
+}
