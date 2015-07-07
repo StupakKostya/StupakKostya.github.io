@@ -5,9 +5,19 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="project1.css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:600'>
-    
+    <script src="http://maps.google.com/maps?file=api&v=2&&hl=ru&key=ABQIAAAALTPVufm_y4bze0hX1-F_0xQZRRnT-B5O1OVkm-
+IywckVfduigRQhjdjpnbPnmdSpeC9ZOvfNKlNigQ" type="text/javascript"></script>
+<script type="text/javascript">
+function GMapInit() {
+	var map = new GMap2(document.getElementById("GMapContainer"));
+	map.setCenter(new GLatLng(50.43916736, 30.499046), 14);
+	map.addControl(new GLargeMapControl()); 
+	map.addControl(new GMapTypeControl());   
+	map.enableScrollWheelZoom(); 
+}
+</script>
 </head>
-<body>
+<body onload="GMapInit()" onunload="GUnload()">
 	<!--Header-->
 <div class="header_nav">
 <div class="logo"><a href="#">Company <span>NAME</span></a></div>
@@ -42,9 +52,9 @@ tempor<br> incididunt ut labore et dolore magna aliqua. </span></p>
 <div class="services">
 	<div class="serv_cont">
 		<div class="p_serv"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p></div>
-		<div class="protect"><img src="lock.jpg"></div>
-		<div class="alert"><img src="flesh.jpg"></div>
-		<div class="detect"><img src="phone.jpg"></div>	
+		<div class="protect"><img src="img/lock.jpg"></div>
+		<div class="alert"><img src="img/flesh.jpg"></div>
+		<div class="detect"><img src="img/phone.jpg"></div>	
 		<div class="clr"></div>
 		<div class="p_protect"><p><span class="cap_pro">PROTECT</span></p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -113,7 +123,7 @@ tempor incididunt ut labore et dolore magna aliqua.</span></p>
 
 	<div class="test_content">
 		<div class="content_n"><p><span>WHAT</span> CLIENT SAYS</p></div>
-<div class="photo"><img src="lady.jpg"></div>
+<div class="photo"><img src="img/lady.jpg"></div>
 <div class="cust">
 <p>Stciya Trollio</p>
 <p>Customer</p>
@@ -121,7 +131,7 @@ tempor incididunt ut labore et dolore magna aliqua.</span></p>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore. </p>
 </div>
-<div class="photo1"><img src="men.jpg"></div>
+<div class="photo1"><img src="img/men.jpg"></div>
 <div class="cust1">
 <p>David Sout</p>
 <p>Customer</p>
@@ -133,11 +143,36 @@ tempor incididunt ut labore et dolore.</p>
 </div>
 <footer>
 	<div class="foot_up">
-<div class="contact">700 345</div>
-<div class="map"></div>
+<div class="contact">
+<div class="cont_cont">
+	<div class="bot_icons"><img src="img/ico.jpg"></div>
+	<div class="bot_inf">
+		<p>Iconoc Graphics</p>
+		<address></address>
+		<p>123 Main street</p>
+		<p>EastWest</p>
+		<p>LHR 54500</p><br>
+		<p>012.345.6789</p>
+		<p><a href="mailto:info@iconocgrafics.com">info@iconocgrafics.com</a></p>
+	</div>
+	<div class="bot_sn">
+		<div class="fb"><a href="https://www.facebook.com/" target="_blank"><img src="img/fb.jpg"></a></div>
+		<div class="tw"><a href="https://twitter.com/?lang=ru" target="_blank"><img src="img/tw.jpg"></a></div>
+		<div class="in"><a href="https://www.linkedin.com/" target="_blank"><img src="img/in.jpg"></a></div>
+
+	</div>
+	</div>
+	</div>
+<div id="GMapContainer"></div>
 </div>
 <div class="crl"></div>
-<div class="bot_cont">2121</div>
+<div class="bot_cont">
+<div class="bot_conte">
+<p>Copyright Company Name. All rights reserved</p>
+ <p>Design by IconicGraphics.com</p>
+</div>
+
+</div>
 </footer>
 
 

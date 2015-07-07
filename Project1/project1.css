@@ -52,7 +52,7 @@ sup{
 /*Banner*/
 .banner{
 	height: 585px;
-	background-image: url(ban_bg.jpg);
+	background-image: url(img/ban_bg.jpg);
 }
 .ban_cont{
 	width: 1024px;
@@ -179,7 +179,7 @@ button{
 
 .section{
 	height: 563px;
-	background-image: url(sec_bg.jpg);
+	background-image: url(img/sec_bg.jpg);
 }
 .sec_content{
 	width: 673px;
@@ -380,7 +380,7 @@ input{
 
 .test{
 	height: 315px;
-	background-image: url(test.jpg);
+	background-image: url(img/test.jpg);
 }
 .test_content{
 	width: 1023px;
@@ -450,10 +450,42 @@ footer {
 	background-color: white;
 	float: left;
 }
-.map{
+.cont_cont{
+	width: 507px;
+	margin-left: 189px;
+	margin-top: 35px;
+	
+}
+.bot_icons{
+	height: 240px;
+	width: 10%;
+	float: left;
+}
+.bot_inf{
+	height: 240px;
+	width: 100%;
+	}
+.bot_inf p{
+	font-size: 14px;
+	line-height: 30px;
+	color: #666666;
+}
+.bot_sn{
+	height: 105px;
+	
+}
+.fb{
+	float: left;
+	padding-right: 25px;
+}
+.tw{
+	float: left;
+	padding-right: 25px;
+}
+
+#GMapContainer{
 	height: 345px;
 	width: 50%;
-	background-image: url(map.jpg);
 	float: left;
 }
 
@@ -463,4 +495,8 @@ footer {
 .bot_cont{
 	height: 105px;
 	background-color: #3070a8;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
 }
