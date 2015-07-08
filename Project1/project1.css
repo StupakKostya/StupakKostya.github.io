@@ -10,6 +10,18 @@ span{
 	color: #3070a8;
 	font-weight: bold;
 }
+@font-face{
+	font-family:'Futura BT'
+	src:local(Futura);
+}
+@font-face{
+	font-family: 'Poiret One'
+	src:url(http://webfonts.ru/import/poiret.css);
+}
+@font-face{
+	font-family: 'Open Sans', sans-serif
+	src:url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+}
 sub{
 	font-size: 19px;
 }
@@ -35,7 +47,7 @@ sup{
 	float: right;
 	display: block;
 	list-style: none;
-	text-align: center;
+	text-align: center;	
 }
 .menu ul li a{
 	color: #989898;
