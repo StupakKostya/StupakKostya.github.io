@@ -1,5 +1,5 @@
 *{
- margin: 0;
+ margin: 0 auto;
  padding: 0;
  outline: none;
 }
@@ -35,6 +35,7 @@ sup{
 	float: right;
 	display: block;
 	list-style: none;
+	text-align: center;
 }
 .menu ul li a{
 	color: #989898;
@@ -190,12 +191,11 @@ button{
 	color: #ee8129;
 	font-size: 26px;
 	line-height: 35px;
-	
-
 }
 .sec_content ul{
 	color: white;
 	font-family: 'Open Sans';
+	font-style: italic;
 	font-size: 19px;
 	margin-top: 10px;
 }
@@ -204,6 +204,7 @@ list-style-position: inside;
 color: #848484;
 line-height: 32px;
 font-family: 'Open Sans';
+font-style: normal;
 
 }
 .sec_content ul li:hover{
@@ -402,18 +403,43 @@ input{
 }
 .cust{
 	float: left;
-	width: 362px;
-	height: 96px;
+	width: 342px;
+	height: 88px;
 	background-color: white;
 	border: 1px solid #e0e0e0;
 	position: relative;
 	margin-left: 27px;
 	margin-right: 40px;
+	padding: 5px;
 }
+.dash{
+	border-bottom: 1px dotted #666666;
+	margin: 0 10px;
+}
+.line{
+	line-height: 21px;
+	padding-top: 5px;
+	margin: 0 10px;
+}
+.f_r{
+	float: right;
+	color: #3070a8;
+	margin-right: 10px;
+}
+.cust p:first-child{
+	color: #3070a8;
+	font-weight: bold;
+	margin: 14px 0 5px 10px;
+	}
+.cust1 p:first-child{
+	color: #3070a8;
+	font-weight: bold;
+	margin: 14px 0 5px 10px;
+	}
 .cust::before{
 	content: '';
 	position: absolute;
-	left: -40px; 
+	left: -35px; 
 	top: 23px;
     border: 20px solid transparent; 
     border-right: 20px solid white;
@@ -423,17 +449,18 @@ input{
 }
 .cust1{
 	float: left;
-	width: 362px;
-	height: 96px;
+	width: 342px;
+	height: 88px;
 	background-color: white;
 	border: 1px solid #e0e0e0;
 	position: relative;
 	margin-left: 27px;
+	padding: 5px;
 }
 .cust1::before{
 	content: '';
 	position: absolute;
-	left: -40px; 
+	left: -35px; 
 	top: 23px;
     border: 20px solid transparent; 
     border-right: 20px solid white;
@@ -499,4 +526,10 @@ footer {
 	text-align: center;
 	line-height: 30px;
 	font-size: 14px;
+}
+.ig{
+	color: #1d1c1c;
+}
+.bot_inf a{
+	color: #666666;
 }
