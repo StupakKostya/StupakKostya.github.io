@@ -1,0 +1,93 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+}
+a{
+    text-decoration: none;
+}
+.p_align
+{	font-family: Helvetica, Arial;
+}
+.header{
+	background-color: #3498db;
+	
+}
+.header_nav{
+	height: 77px;
+	width: 1000px;
+	margin: 0 auto;
+}
+.logo{
+	width:55px;
+	height:55px;
+	float: left;
+	margin-top: 11px;
+}
+.logo img{
+	width: 100%;
+
+}
+.logo_name{
+	color: #fff;
+	font-family: Helvetica;
+	font-size:26px;
+	line-height: 77px;
+	width: 220px;
+	float: left;
+}
+.header_connect{
+	color: white;
+	line-height: 77px;
+	width: auto;
+	float: right;
+	margin-right: 5px;
+}
+.fb{
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-top: 5px;
+}
+.g{
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-top: 5px;
+}
+.tw{
+	width: 24px;
+	height: 24px;
+	float: right;
+	margin-top: 5px;
+}
+.banner{
+	height: 350px;
+	background-image: url(img/banner_bg.jpg);
+	border-bottom: 1px solid #8faec3;
+}
+.banner_cont{
+	width: 1000px;
+	margin: 0 auto;
+}
+.cont_history{
+	background-color: #f2f2f2;
+	height: 249px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.cont_history_cont{
+	width: 1000px;
+	margin: 0 auto;
+}
+.main_cont{
+	height: 788px;
+	background-color: #fff;
+}
+.main_cont_cont{
+	width: 1000px;
+	margin: 0 auto;
+}
