@@ -24,7 +24,6 @@ body {
 header{
 	background-color: #3498db;
 	min-height: 77px;
-	
 }
 .logo{
 	width: 53px;
@@ -54,17 +53,17 @@ header{
 	clear: both;
 }
 .social_network{
-float: right;
-margin-top: 29px;
+	float: right;
+	margin-top: 29px;
 }
 .p_connect{
-float: left;
-margin-top: 5px;
-color: white;
-padding-right: 8px;
+	float: left;
+	margin-top: 5px;
+	color: white;
+	padding-right: 8px;
 }
 .sn{
-float: right;	
+	float: right;	
 }
 .sn li{
 	background: url(img/sprite.png);
@@ -100,9 +99,9 @@ float: right;
 	margin: 0 auto;
 }
 .banner_cont h1{
-color: #fff;
-font-size: 50px;
-position: relative;
+	color: #fff;
+	font-size: 50px;
+	position: relative;
 }
 .welcome{
 	padding-top: 76px;
@@ -152,10 +151,7 @@ position: relative;
 .reg::-webkit-input-placeholder {
   color: #333333;
     }
-  .reg::-moz-input-placeholder {
-  color: #333333;
-    }
-  .reg:-ms-input-placeholder {
+.reg:-ms-input-placeholder {
   color: #333333;
     }
 .reg_form .adress{
@@ -209,7 +205,6 @@ position: relative;
 	float: left;
 }
 /*WHY WE?*/
-
 .main_cont_top{
 	height: 531px;
 	border-bottom: 1px solid #f2f2f2;
@@ -226,8 +221,6 @@ position: relative;
 	width: 290px;
 	float: left;
 	padding-right: 60px;
-
-	
 }
 .qa_title, .qa_prog_title, .ex_title {
 	font-size: 15px;
@@ -250,14 +243,12 @@ position: relative;
 	border-radius: 100px;
 	overflow: hidden;
 	margin-top: 26px;
-
 }
 .envir_view, .qa_view, .ex_view p{
 	color: #333333;
 	font-size: 13px;
 	text-align: center;
 	line-height: 52px;
-
 }
 .envir_view:hover{
 	background-color:#fff; 
@@ -271,7 +262,6 @@ position: relative;
 	background-color:#fff; 
 	border-color: #3498db;
 }
-
 .envir_view p:hover{
 	color: #3498db;
 	font-weight: bold;
@@ -286,15 +276,13 @@ position: relative;
 }
 .main_cont_bot{
 		height: 256px;
-	
 }
 .stud_says{
-		
-		float: left;
-		color: #3498db;
-		font-size: 25px;
-		text-transform: uppercase;
-		margin-top: 40px;
+	float: left;
+	color: #3498db;
+	font-size: 25px;
+	text-transform: uppercase;
+	margin-top: 40px;
 }
 .stud_word::before {
     content: "\201C";
@@ -310,8 +298,6 @@ position: relative;
 	float: left;
 	width: 733px;
 }
-
-
 .round{
 	height: 40px;
 	width: 40px;
@@ -327,10 +313,10 @@ position: relative;
 	border-color: #3498db;
 }
 .round img{
-margin: 12px 0 0 12px;
+	margin: 12px 0 0 12px;
 }
 .round1 img{
-margin: 12px 0 0 12px;
+	margin: 12px 0 0 12px;
 }
 .round1{
 	height: 40px;
@@ -359,8 +345,6 @@ cite::after {
     font-size: 50px;
     position: absolute;
     margin: 20px 20px 0 0;
-
-    
 }
 .clr{
 	clear: both;
@@ -414,7 +398,6 @@ footer{
 	background-color: #3498db;
 	border-top: 1px solid #99c8e7;
 }
-
 .bot_logo{
 	width:255px;
 	float:left;
@@ -443,22 +426,20 @@ box-shadow: 0 0 10px rgba(255,255,255,0.9);
 	margin-top: 60px;
 	text-transform: uppercase;
 	border-right: 1px solid #2980b9;
-	
 }
 .social_network_bot{
-float: left;
-margin-top: 60px;
-margin-left: 23px;
+	float: left;
+	margin-top: 60px;
+	margin-left: 23px;
 }
 .p_connect_bot{
-float: left;
-margin-top: 5px;
-color: white;
-padding-right: 8px;
-
+	float: left;
+	margin-top: 5px;
+	color: white;
+	padding-right: 8px;
 }
 .sn{
-float: left;	
+	float: left;	
 }
 .lic{
 	margin-left: 23px;
@@ -467,12 +448,10 @@ float: left;
 	display: inline-block;	
 }
 @media screen and (min-width: 800px) and (max-width: 1000px){
-
 body{
 	min-width: 800px;
 	max-width: 1000px;
 }
-
 .header,.banner_cont, .cont_history_cont, .main_cont_top, .main_cont_bot, .bot_start_cont, .foot_cont{
 	width: 768px;
 	margin: 0 auto;	
@@ -492,6 +471,8 @@ body{
 	}
 .reg_select{
 	width: 298px;
+	font-size: 15px;
+	padding-left: 8px;
 }
 #button{
 	width: 200px;
@@ -522,7 +503,6 @@ body{
 	float: none;
 	margin: 0;
 	padding: 0;
-	
 }
 .build_pic, .doct_pic, .men_pic{
 	float: left;
@@ -543,9 +523,6 @@ body{
 	margin: 0;
 	float: none;	
 }
-.doc_pic{
-
-}
 .ex_teacher{
 	float: left;
 	border-bottom: 1px solid #f2f2f2;
@@ -553,7 +530,7 @@ body{
 .qa_title, .qa_prog_title, .ex_title {
 	font-size: 15px;
 	font-weight: bold;
-	padding: 0px 0 24px 0px;
+	padding: 0 0 24px 0;
 	text-align: left;
 }
 .qa_text, .qa_prog_text, .ex_text{
@@ -564,7 +541,6 @@ body{
 	float: none;
 	margin: 40px 0 36px 0;
 	padding:0;
-
 }
 .main_cont_bot{
 	height: 256px;
@@ -580,7 +556,7 @@ body{
 	font-size: 20px;
 }
 .yang_men{
-	right: 0px;
+	right: 0;
 }
 cite{
 	margin-bottom: 70px;
@@ -589,13 +565,11 @@ cite{
 	width: 450px;
 }
 }
-
 @media screen and (min-width: 320px) and (max-width: 800px){
 	body{
 	min-width: 320px;
 	max-width: 800px;
 }
-
 .header,.banner_cont, .cont_history_cont, .main_cont_top, .main_cont_bot, .bot_start_cont, .foot_cont{
 	width: 320px;
 	margin: 0 auto;	
@@ -607,7 +581,6 @@ header{
 	padding-top: 10px;
 	float: none;
 	margin: 0 auto;
-
 }
 .logo_name{
 	float: none;
@@ -619,12 +592,12 @@ header{
 	font-size: 20px;
 }
 .social_network{
-	margin: 0;
 	float: none;
 	margin: 11px 0 0 90px;
-
 }
 .welcome {
+	padding-top: 40px;
+	padding-bottom: 5px;
 	margin: 0;
 	font-size: 40px;
 	text-align: center;
@@ -633,6 +606,8 @@ header{
 	float: none;
 	font-size: 16px;
 	width: 250px;
+	line-height: 30px;
+	text-align: center;
 }
 .reg_form{
 	width: 300px;
@@ -641,14 +616,14 @@ header{
 	left: 19px;
 	top: 350px;
 }
-
 .reg_form .reg{
 	width: 244px;
 	}
 .reg_select{
 	width: 258px;
+	font-size: 15px;
+	padding-left: 8px;
 }
-
 #button{
 	margin-left: 20px;
 }
@@ -656,7 +631,6 @@ header{
 	padding-top: 370px;
 	padding-left: 15px;
 }
-
 .main_history_text{
 	width: 275px;
 	margin: 0 auto;
@@ -664,12 +638,10 @@ header{
 }
 .un_name{
 	text-align: center;
-
 }
 .main_history_text{
-		text-align: center;
+	text-align: center;
 }
-
 .main_cont_top{
 	height: auto;
 }
@@ -680,8 +652,7 @@ header{
 	font-size: 25px;
 }
 .qa_envir{
-		padding-left: 15px;
-	
+	padding-left: 15px;
 }
 .build_pic, .doct_pic, .men_pic{
 	float: left;
@@ -691,14 +662,11 @@ header{
 .qa_prog{
 		padding-left: 15px;
 }
-
 .ex_teacher{
 	padding-left: 15px;
 }
-
 .qa_title, .qa_prog_title, .ex_title {
-		text-align: center;
-	
+	text-align: center;
 }
 .qa_text, .qa_prog_text, .ex_text{
 	text-align: center;
@@ -711,37 +679,56 @@ header{
 	float: none;
 	margin: 26px 0 36px 125px;
 	padding:0;
-
 }
 .round, .round1{
-margin: 21px 0 0 0;
-float: left;
+	margin: 21px 0 0 3px;
+	float: left;
 }
-
+.circle{
+	margin-left: 122px;
+}
+.stud_says{
+	font-size: 20px;
+	margin-left: 10px;
+}
 .stud_word{
 	width: 288px;
 	text-align: center;
 }
+.stud_word::before{
+	display: none;
+}
+.clr{
+	clear: both;
+}
+.bq::before {
+   content: "\201C";
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: 50px;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+    margin-right: 200px;
+  }
 cite{
-	margin-bottom: 170px;
+	margin-bottom: 130px;
 }
 .bot_start{
-	padding-top: 50px;
+	padding-top: 20px;
 	height: 230px;
 }
 .bot_but{
 	width: 300px;
 	height: 130px;
 	font-size: 20px;
-	margin-bottom: 50px;
 	position: absolute;
 	z-index: 999;
-
 }
 .yang_men{
 	right: 60px;
+	top: -133px;
 }
-
 footer{
 	height: 313px;
 }
@@ -754,18 +741,16 @@ footer{
 .logo_bot{
 	float: none;
 	margin: 30px 0 10px 40px;
-	
 }
 .un_bot_name{
-margin: 0;
-padding: 0;
-float: none;
-border-right: none;
-font-size: 20px;
-width: 170px;	
-border-bottom: 1px solid #2980b9;
-padding-bottom: 10px;
-
+	margin: 0;
+	padding: 0;
+	float: none;
+	border-right: none;
+	font-size: 20px;
+	width: 170px;	
+	border-bottom: 1px solid #2980b9;
+	padding-bottom: 10px;
 }
 .social_network_bot{
 	margin: 11px 0 43px 80px;
