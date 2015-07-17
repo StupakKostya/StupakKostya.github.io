@@ -181,6 +181,13 @@ position: relative;
 #button:hover{
 	background-color: #d24436;
 }
+.welcome{
+	font-size: 50px;
+}
+.welcom_words{
+	font-size: 30px;
+
+}
 .cont_history{
 	background-color: #f2f2f2;
 	height: 249px;
@@ -200,9 +207,9 @@ position: relative;
 	width: 570px;
 	float: left;
 }
+/*WHY WE?*/
+
 .main_cont_top{
-	width: 1000px;
-	margin: 0 auto;
 	height: 531px;
 	border-bottom: 1px solid #f2f2f2;
 	text-align: center;
@@ -221,12 +228,12 @@ position: relative;
 
 	
 }
-.qa_title{
+.qa_title, .qa_prog_title, .ex_title {
 	font-size: 15px;
 	font-weight: bold;
 	padding: 32px 0 24px 0;
 }
-.qa_text{
+.qa_text, .qa_prog_text, .ex_text{
 	color: #333333;
 	font-size: 13px;
 }
@@ -235,7 +242,7 @@ position: relative;
 	float: left;
 	padding-right: 60px;
 }
-.envir_view{
+.envir_view, .qa_view, .ex_view{
 	width: 52px;
 	height: 52px;
 	border: 1px solid #e6e6e6;
@@ -244,7 +251,7 @@ position: relative;
 	margin-top: 26px;
 
 }
-.envir_view p{
+.envir_view, .qa_view, .ex_view p{
 	color: #333333;
 	font-size: 13px;
 	text-align: center;
@@ -255,10 +262,26 @@ position: relative;
 	background-color:#fff; 
 	border-color: #3498db;
 }
+.qa_view:hover{
+	background-color:#fff; 
+	border-color: #3498db;
+}
+.ex_view:hover{
+	background-color:#fff; 
+	border-color: #3498db;
+}
+
 .envir_view p:hover{
 	color: #3498db;
 	font-weight: bold;
-
+}
+.qa_view p:hover{
+	color: #3498db;
+	font-weight: bold;
+}
+.ex_view p:hover{
+	color: #3498db;
+	font-weight: bold;
 }
 .main_cont_bot{
 		height: 256px;
@@ -327,6 +350,7 @@ cite{
 	font-weight: bold;
 	font-size: 13px;
 	margin-top: 20px;
+	text-transform: uppercase;
 }
 cite::after {
     content: "\201D";
@@ -441,4 +465,125 @@ float: left;
 	color: white;
 	display: inline-block;	
 }
-@media screen and (min-width: 800px) and (max-width: 1000px){}
+@media screen and (min-width: 800px) and (max-width: 1000px){
+
+body{
+	min-width: 800px;
+	max-width: 1000px;
+}
+
+.header,.banner_cont, .cont_history_cont, .main_cont_top, .main_cont_bot, .bot_start_cont, .foot_cont{
+	width: 768px;
+	margin: 0 auto;	
+}
+.reg_form{
+	width:340px;
+	margin-left: 440px; 
+}
+.reg_title{
+	font-size: 20px;
+	color: #333333;
+	text-align: center;
+	margin:30px 0;
+}
+.reg_form .reg{
+	width: 284px;
+	}
+.reg_select{
+	width: 298px;
+}
+#button{
+	width: 200px;
+}
+.welcome{
+	font-size: 40px;
+}
+.welcom_words{
+	font-size: 25px;
+	width: 380px;
+}
+.main_history_text{
+	width: 390px;
+}
+
+.main_cont_top{
+	height: auto;
+	border-bottom: none;
+}
+.title_cont{
+	padding: 39px 0 33px 0;
+	color: #3498db;
+	text-align: left;
+	font-size: 25px;
+}
+.qa_envir{
+	width: auto;
+	float: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.build_pic, .doct_pic, .men_pic{
+	float: left;
+	padding-right: 22px;
+}
+.qa_title{
+	font-size: 15px;
+	font-weight: bold;
+	float: none;
+}
+.qa_text{
+	color: #333333;
+	font-size: 13px;
+}
+.qa_prog{
+	width: auto;
+	padding: 0;
+	margin: 0;
+	float: none;	
+}
+.doc_pic{
+
+}
+.ex_teacher{
+	float: left;
+	border-bottom: 1px solid #f2f2f2;
+}
+.qa_title, .qa_prog_title, .ex_title {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 0px 0 24px 0px;
+	text-align: left;
+}
+.qa_text, .qa_prog_text, .ex_text{
+	text-align: left;
+	padding-left: 10px;
+}
+.envir_view, .qa_view, .ex_view{
+	float: none;
+	margin: 40px 0 36px 0;
+	padding:0;
+
+}
+.main_cont_bot{
+	height: 256px;
+}
+.stud_says{
+	font-size: 20px;
+}
+.stud_word{
+	width: 540px;
+}
+.bot_but{
+	width: 479px;
+	font-size: 20px;
+}
+.yang_men{
+	right: 0px;
+}
+cite{
+	margin-bottom: 70px;
+}
+.lic{
+	width: 450px;
+}
