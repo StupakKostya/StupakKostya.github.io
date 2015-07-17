@@ -107,6 +107,7 @@ position: relative;
 .welcome{
 	padding-top: 76px;
 	font-weight: bold;
+	color: white;
 }
 .welcom_words{
 	color: #fff;
@@ -586,4 +587,192 @@ cite{
 }
 .lic{
 	width: 450px;
+}
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px){
+	body{
+	min-width: 320px;
+	max-width: 800px;
+}
+
+.header,.banner_cont, .cont_history_cont, .main_cont_top, .main_cont_bot, .bot_start_cont, .foot_cont{
+	width: 320px;
+	margin: 0 auto;	
+}
+header{
+	height: 160px;
+}
+.logo{
+	padding-top: 10px;
+	float: none;
+	margin: 0 auto;
+
+}
+.logo_name{
+	float: none;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	width: 180px;
+	border-bottom: 1px solid #2980b9;
+	font-size: 20px;
+}
+.social_network{
+	margin: 0;
+	float: none;
+	margin: 11px 0 0 90px;
+
+}
+.welcome {
+	margin: 0;
+	font-size: 40px;
+	text-align: center;
+}
+.welcom_words{
+	float: none;
+	font-size: 16px;
+	width: 250px;
+}
+.reg_form{
+	width: 300px;
+	margin: 0;
+	float: none;
+	left: 19px;
+	top: 350px;
+}
+
+.reg_form .reg{
+	width: 244px;
+	}
+.reg_select{
+	width: 258px;
+}
+
+#button{
+	margin-left: 20px;
+}
+.cont_history{
+	padding-top: 370px;
+	padding-left: 15px;
+}
+
+.main_history_text{
+	width: 275px;
+	margin: 0 auto;
+
+}
+.un_name{
+	text-align: center;
+
+}
+.main_history_text{
+		text-align: center;
+}
+
+.main_cont_top{
+	height: auto;
+}
+.title_cont{
+	padding: 39px 0 33px 0;
+	color: #3498db;
+	text-align: center;
+	font-size: 25px;
+}
+.qa_envir{
+		padding-left: 15px;
+	
+}
+.build_pic, .doct_pic, .men_pic{
+	float: left;
+	padding-right: 22px;
+	margin-bottom: 28px;
+}
+.qa_prog{
+		padding-left: 15px;
+}
+
+.ex_teacher{
+	padding-left: 15px;
+}
+
+.qa_title, .qa_prog_title, .ex_title {
+		text-align: center;
+	
+}
+.qa_text, .qa_prog_text, .ex_text{
+	text-align: center;
+	padding-left: 0;
+}
+.ex_text{
+	width: 290px;
+}
+.envir_view, .qa_view, .ex_view{
+	float: none;
+	margin: 26px 0 36px 125px;
+	padding:0;
+
+}
+.round, .round1{
+margin: 21px 0 0 0;
+float: left;
+}
+
+.stud_word{
+	width: 288px;
+	text-align: center;
+}
+cite{
+	margin-bottom: 170px;
+}
+.bot_start{
+	padding-top: 50px;
+	height: 230px;
+}
+.bot_but{
+	width: 300px;
+	height: 130px;
+	font-size: 20px;
+	margin-bottom: 50px;
+	position: absolute;
+	z-index: 999;
+
+}
+.yang_men{
+	right: 60px;
+}
+
+footer{
+	height: 313px;
+}
+.bot_logo{
+	float: none;
+	margin: 0;
+	width: auto;
+	margin-left: 80px;
+}
+.logo_bot{
+	float: none;
+	margin: 30px 0 10px 40px;
+	
+}
+.un_bot_name{
+margin: 0;
+padding: 0;
+float: none;
+border-right: none;
+font-size: 20px;
+width: 170px;	
+border-bottom: 1px solid #2980b9;
+padding-bottom: 10px;
+
+}
+.social_network_bot{
+	margin: 11px 0 43px 80px;
+}
+.lic{
+	width: 234px;
+	text-align: center;
+	margin-left: 45px;
+}
 }
