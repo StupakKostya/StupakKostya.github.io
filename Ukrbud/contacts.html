@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Укрбуддом</title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<script src="http://maps.google.com/maps?file=api&v=2&&hl=ru&key=ABQIAAAALTPVufm_y4bze0hX1-F_0xQZRRnT-B5O1OVkm-
+IywckVfduigRQhjdjpnbPnmdSpeC9ZOvfNKlNigQ" type="text/javascript"></script>
+<script type="text/javascript">
+function GMapInit() {
+	// Инициализация класса Google Maps и расположение карты в слое GMapContainer
+	var map = new GMap2(document.getElementById("GMapContainer"));
+
+	// Задаем настройки вывода
+	map.setCenter(new GLatLng(50.431244, 30.434596000000056), 16); 	
+	 var point = new GLatLng(50.431244, 30.434596000000056);// Широта, долгота и коэффициент
+										// увелич50.431244ения цента (обязательный параметр)
+	map.addControl(new GLargeMapControl()); // Добавляем на карту Google Maps управление прокруткой и приближением
+	map.addControl(new GMapTypeControl());  // Добавляем на карту Google Maps возможность выбрать тип отображения
+						//(карта, вид со спутника, комбинированный режим)
+	map.enableScrollWheelZoom(); // Масштабирование карты скроллингом
+}
+</script>
+</head>
+
+<body onload="GMapInit()" onunload="GUnload()">
+<header>
+<div class="header-cont">
+	<div class="logo-name">
+	<span class="l-name">Укрбуддом</span> современные строительные технологии
+</div>
+
+<div class="logo"><a href="#"><img src="img/logo.jpg"></a></div>
+<!--NAVIGATION-->
+<div class="clr"></div>
+
+	
+</div>
+</header>
+	  <div id="nav">
+        <ul>
+            <li><a href="index.html"><span>Главная</span></a></li>
+            <li><a href="#"><span>Проэкты</span></a></li>
+            <li class="dropdown"><a href="#"><span>Строительные работы</span></a>
+                <ul>
+                    <li><a href="concreting.html"><span>Беторинование</span></a></li>
+                    <li><a href="#"><span>Ремонт ангаров, цехов</span></a></li>
+                    <li><a href="#"><span>Перекрытие крыши</span></a></li>
+                </ul>
+            </li>
+            <li class=><a href="about.html"><span>О нас</span></a> </li>
+            <li><a href="contacts.html"><span>Контакты</span></a></li>
+        </ul>
+    </div>
+<div class="container-contacts">
+	<div class="info">
+<p>Контакты</p>
+
+<p>Украина, 03061, м. Киев ул. Мироновская, 56</p> 
+</p>
+<p>тел. 044 531 886 0</p>
+
+<p>факс. 044 404 332 2</p>
+
+
+
+<p>Моб.связь</p> 
+<p>м. +380 63 354 1055</p>
+
+<p>. +380 67 321 9233</p>
+
+<p>м. +380 93 515 1414</p>
+
+<p>тел. +8(926) 845-65-20</p>
+
+
+
+<p>E-mail :<a href="mailto:office@ukrbuddim.com">office@ukrbuddim.com</a></p> 
+
+
+	</div>
+	<div class="map">
+		<div id="GMapContainer"></div>
+</div>
+</div>
+<!--FOOTER-->
+<footer>
+	<div class="footer-cont">
+		<div class="contacts">
+			<p>Украина, 03061, м. Киев ул. Мироновская, 56</p> 
+			<a href="mailto:office@ukrbuddim.com">office@ukrbuddim.com</a>
+		</div>
+		<div class="rights"><p>© Укрбуддім</p>
+Все права защищены
+</div>
+		<div class="telephone"><p>тел. 044 531 886 0</p></div>
+	</div>
+	</footer>
+</body>
+</html>
