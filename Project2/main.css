@@ -243,6 +243,7 @@ header{
 	font-size: 13px;
 	text-align: center;
 	line-height: 52px;
+	cursor: pointer;
 }
 .envir_view:hover{
 	background-color:#fff; 
