@@ -1,0 +1,32 @@
+body{
+	height: 100%;
+}
+html{
+	height: 100%;
+}
+#about{
+height: 100vh;
+}
+.bgc{
+	background-color: rgba(222, 117, 98, 0.8);
+	color: black;
+}
+.bgc p{
+	color: black;
+}
+header{
+	position: relative;
+}
+.main-haed{
+	position: relative;
+	min-height: 420px;
+}
+.main-bg{
+	
+	background: url(../images/banner1.jpg) no-repeat;
+    background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+     
+}
+
