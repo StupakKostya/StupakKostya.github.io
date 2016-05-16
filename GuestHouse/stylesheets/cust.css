@@ -1,3 +1,12 @@
+.promo-img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.bord-bot{
+	border-bottom: 2px solid #55a2a6;
+}
 .room-list span{
 	font-weight: bold;
 }
@@ -7,24 +16,24 @@
 
 .but-info {
 	
-	text-decoration:none; 
+ text-decoration:none; 
  text-align:center; 
  display: block;
  width: 150px;
  padding:5px; 
- border:solid 1px #f4a46f; 
+ border:solid 1px #58a2a6; 
  -webkit-border-radius:4px;
  -moz-border-radius:4px; 
  border-radius: 4px; 
  font:18px Arial, Helvetica, sans-serif; 
    color:#fff; 
- background-color:#da6f29; 
+ background-color:#55a2a6; 
  -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
  -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
  box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
   }
 .but-info:hover{
-	background-color: #f4a46f;
+	background-color: #14a2a6;
 	color: #fff;
 }
 
@@ -36,12 +45,14 @@
 .room-img img{
 	display: block;
 	width: 70%;
-	
-	border: 3px solid #da6f29;
+	border: 3px solid #55a2a6;
 }
 .teambox img{
 	float: left;
 	display: block;
 	margin:0 auto;
 	padding: 10px;
+}
+.strong-price{
+	color:red;
 }
