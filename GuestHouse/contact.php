@@ -20,7 +20,7 @@ if (!$comment) $errors[count($errors)] = 'Please enter your comment.';
 if (!$errors) {
 
 	//recipient - replace your email here
-	$to = 'email';	
+	$to = 'eurotour@ukr.net';	
 	//sender - from the form
 	$from = $name . ' <' . $email . '>';
 	
