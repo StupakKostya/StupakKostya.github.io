@@ -1,0 +1,50 @@
+
+a,a:hover {
+	color: RGB(45, 227, 169);;
+}
+
+.intro .page-scroll a:hover {
+	color: RGB(45, 227, 169);;
+}
+
+.icon:hover .fa{
+	color: RGB(45, 227, 169);;
+}
+
+ul.nav li a:hover {
+	color: RGB(45, 227, 169);;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+    background-color: RGB(45, 227, 169);;
+}
+
+.bg-skin {
+	background: RGB(45, 227, 169);;
+}
+
+form#contact-form input:focus,form#contact-form select:focus,form#contact-form textarea:focus {
+	border-color: RGB(45, 227, 169);;
+}
+
+
+footer a {
+	color: RGB(45, 227, 169);
+}
+.btn-skin {
+  color: #fff;
+  background-color: RGB(45, 227, 169);
+  border-color: RGB(45, 227, 169);
+}
+iframe{
+	border:1px solid RGB(45, 227, 169);
+}
+.planContainer .button a:hover {
+  background: RGB(45, 227, 169);
+  color: #fff;
+}
+#pricePlans span{
+	color:RGB(45, 227, 169);
+	font-weight: bold;
+}
